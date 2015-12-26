@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ju-So-swH" customClass="ZZToggleButton">
+                                <rect key="frame" x="110" y="269" width="100" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="2AF-5F-6Wj"/>
+                                    <constraint firstAttribute="width" constant="100" id="Tmc-PZ-Zbj"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="2.2250738585072014e-308"/>
+                                <state key="normal" title="Off">
+                                    <color key="titleColor" red="0.52156862745098043" green="0.52156862745098043" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="On">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isOn" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorOff">
+                                        <color key="value" red="0.25098039215686274" green="0.25098039215686274" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorOn">
+                                        <color key="value" red="0.32549019607843138" green="0.83137254901960789" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ZZToggleButton" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Twy-zB-1Hf">
+                                <rect key="frame" x="98" y="228" width="125" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State: Off" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Fo-hn-QDX">
+                                <rect key="frame" x="123" y="319" width="74" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7Fo-hn-QDX" firstAttribute="top" secondItem="5Ju-So-swH" secondAttribute="bottom" constant="20" id="DoV-JV-b1d"/>
+                            <constraint firstItem="7Fo-hn-QDX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sr8-Jt-w0d"/>
+                            <constraint firstItem="Twy-zB-1Hf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vlh-OS-Lab"/>
+                            <constraint firstItem="5Ju-So-swH" firstAttribute="top" secondItem="Twy-zB-1Hf" secondAttribute="bottom" constant="20" id="Y2R-9R-pMw"/>
+                            <constraint firstItem="5Ju-So-swH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="keT-ls-UU8"/>
+                            <constraint firstItem="5Ju-So-swH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sIX-YB-SMQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="stateLabel" destination="7Fo-hn-QDX" id="cUO-Mr-R32"/>
+                        <outlet property="toggleButton" destination="5Ju-So-swH" id="Cbn-qg-A4O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="406"/>
+        </scene>
+    </scenes>
+</document>
