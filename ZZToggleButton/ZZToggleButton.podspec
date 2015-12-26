@@ -26,9 +26,11 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
   A custom subclass of UIButton, provide toggle style and funcion.
+
+  You can tweak backgroundColor and cornerRadius for different State just as normal UIButton properties (text, color, backgroundImage, etc), in both programmetic or Interface Builder.
                    DESC
 
-  s.homepage     = "http://EXAMPLE/ZZToggleButton"
+  s.homepage     = "https://github.com/zzdjk6/ZZToggleButton"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +82,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/ZZToggleButton.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/zzdjk6/ZZToggleButton", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

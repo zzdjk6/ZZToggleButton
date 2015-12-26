@@ -4,6 +4,10 @@ A custom subclass of UIButton, provide toggle style and funcion.
 
 You can tweak backgroundColor and cornerRadius for different State just as normal UIButton properties (text, color, backgroundImage, etc), in both programmetic or Interface Builder.
 
+## Demo
+
+![Demo](https://raw.githubusercontent.com/zzdjk6/ZZToggleButton/master/Stuff/Demo.gif)
+
 ## How To Use
 
 ### ObjC
