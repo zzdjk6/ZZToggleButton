@@ -3,4 +3,4 @@ use_frameworks!
 
 xcodeproj 'ZZToggleButton-Example/ZZToggleButton-Example.xcodeproj'
 
-pod 'ZZToggleButton', :path => 'ZZToggleButton'
+pod 'ZZToggleButton', :path => '.'
