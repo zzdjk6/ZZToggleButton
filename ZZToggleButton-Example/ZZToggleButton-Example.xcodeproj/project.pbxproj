@@ -17,6 +17,7 @@
 		249742AA1C2E99B900BBBD7B /* ZZToggleButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249742A31C2E99B900BBBD7B /* ZZToggleButton.framework */; };
 		249742AB1C2E99B900BBBD7B /* ZZToggleButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 249742A31C2E99B900BBBD7B /* ZZToggleButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		249742B11C2E9A1300BBBD7B /* ZZToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 249742B01C2E9A1300BBBD7B /* ZZToggleButton.m */; };
+		249742B41C2EA3AB00BBBD7B /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249742B31C2EA3AB00BBBD7B /* SwiftViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		249742A51C2E99B900BBBD7B /* ZZToggleButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZToggleButton.h; sourceTree = "<group>"; };
 		249742A71C2E99B900BBBD7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		249742B01C2E9A1300BBBD7B /* ZZToggleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZToggleButton.m; sourceTree = "<group>"; };
+		249742B21C2EA3AA00BBBD7B /* ZZToggleButton-Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZZToggleButton-Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		249742B31C2EA3AB00BBBD7B /* SwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				249742911C2E885300BBBD7B /* LaunchScreen.storyboard */,
 				249742941C2E885300BBBD7B /* Info.plist */,
 				249742831C2E885300BBBD7B /* Supporting Files */,
+				249742B31C2EA3AB00BBBD7B /* SwiftViewController.swift */,
+				249742B21C2EA3AA00BBBD7B /* ZZToggleButton-Example-Bridging-Header.h */,
 			);
 			path = "ZZToggleButton-Example";
 			sourceTree = "<group>";
@@ -243,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				249742B41C2EA3AB00BBBD7B /* SwiftViewController.swift in Sources */,
 				2497428B1C2E885300BBBD7B /* ViewController.m in Sources */,
 				249742881C2E885300BBBD7B /* AppDelegate.m in Sources */,
 				249742851C2E885300BBBD7B /* main.m in Sources */,
@@ -371,10 +377,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "ZZToggleButton-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.zzdjk6.ZZToggleButton-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZZToggleButton-Example/ZZToggleButton-Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -382,10 +391,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "ZZToggleButton-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.zzdjk6.ZZToggleButton-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZZToggleButton-Example/ZZToggleButton-Example-Bridging-Header.h";
 			};
 			name = Release;
 		};

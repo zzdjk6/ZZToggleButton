@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="UGs-aA-ZKq">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Tab Bar Controller-->
+        <scene sceneID="U1t-dX-f7z">
+            <objects>
+                <tabBarController id="UGs-aA-ZKq" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="FYJ-K5-7ie">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="S29-Z6-e8O"/>
+                        <segue destination="t4J-Hv-wce" kind="relationship" relationship="viewControllers" id="cXv-Ph-eLK"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="no2-OK-cEc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-703" y="624"/>
+        </scene>
+        <!--Version-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
@@ -71,6 +90,7 @@
                             <constraint firstItem="5Ju-So-swH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sIX-YB-SMQ"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Version" image="ObjC" id="gnx-Ia-4lx"/>
                     <connections>
                         <outlet property="stateLabel" destination="7Fo-hn-QDX" id="cUO-Mr-R32"/>
                         <outlet property="toggleButton" destination="5Ju-So-swH" id="Cbn-qg-A4O"/>
@@ -78,7 +98,87 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="162" y="406"/>
+            <point key="canvasLocation" x="-174" y="324"/>
+        </scene>
+        <!--Version-->
+        <scene sceneID="edv-Yy-0EX">
+            <objects>
+                <viewController id="t4J-Hv-wce" customClass="SwiftViewController" customModule="ZZToggleButton_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4cF-DN-9AL"/>
+                        <viewControllerLayoutGuide type="bottom" id="Kha-2F-Epf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ps5-X7-p8B">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4y-Bf-qM3" customClass="ZZToggleButton">
+                                <rect key="frame" x="110" y="269" width="100" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="arZ-OT-kVR"/>
+                                    <constraint firstAttribute="width" constant="100" id="j3O-L0-zn7"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="2.2250738585072014e-308"/>
+                                <state key="normal" title="Off">
+                                    <color key="titleColor" red="0.52156862749999999" green="0.52156862749999999" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="On">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isOn" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorOff">
+                                        <color key="value" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorOn">
+                                        <color key="value" red="0.32549019610000002" green="0.83137254900000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ZZToggleButton In Swift" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VKM-3Y-40L">
+                                <rect key="frame" x="67" y="228" width="186" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State: Off" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6d-e2-SSb">
+                                <rect key="frame" x="123" y="319" width="74" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="e4y-Bf-qM3" firstAttribute="top" secondItem="VKM-3Y-40L" secondAttribute="bottom" constant="20" id="2yc-2R-d9l"/>
+                            <constraint firstItem="n6d-e2-SSb" firstAttribute="centerX" secondItem="ps5-X7-p8B" secondAttribute="centerX" id="4kp-gN-AUE"/>
+                            <constraint firstItem="n6d-e2-SSb" firstAttribute="top" secondItem="e4y-Bf-qM3" secondAttribute="bottom" constant="20" id="ArU-eH-iuJ"/>
+                            <constraint firstItem="e4y-Bf-qM3" firstAttribute="centerY" secondItem="ps5-X7-p8B" secondAttribute="centerY" id="JjY-mu-2eR"/>
+                            <constraint firstItem="e4y-Bf-qM3" firstAttribute="centerX" secondItem="ps5-X7-p8B" secondAttribute="centerX" id="TZm-Aw-Q5r"/>
+                            <constraint firstItem="VKM-3Y-40L" firstAttribute="centerX" secondItem="ps5-X7-p8B" secondAttribute="centerX" id="Xld-kt-5ze"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Version" image="Swift" id="u5o-6j-Owu"/>
+                    <connections>
+                        <outlet property="stateLabel" destination="n6d-e2-SSb" id="voe-ro-qnj"/>
+                        <outlet property="toggleButton" destination="e4y-Bf-qM3" id="1lk-Oh-9v6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dpy-Xp-8qw" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-174" y="953"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ObjC" width="44" height="44"/>
+        <image name="Swift" width="44" height="44"/>
+    </resources>
 </document>
