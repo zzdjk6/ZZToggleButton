@@ -2,6 +2,8 @@
 
 A custom subclass of UIButton, provide toggle style and funcion.
 
+You can tweak backgroundColor and cornerRadius for different State just as normal UIButton properties (text, color, backgroundImage, etc), in both programmetic or Interface Builder.
+
 ## How To Use
 
 ### ObjC
