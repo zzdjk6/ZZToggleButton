@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'AFB4EF8861B1947A00871A43'
+               BlueprintIdentifier = '80A8A906458E544A179E9E11'
                BlueprintName = 'ZZToggleButton'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'ZZToggleButton.framework'>
