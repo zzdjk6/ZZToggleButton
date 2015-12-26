@@ -8,6 +8,15 @@ You can tweak backgroundColor and cornerRadius for different State just as norma
 
 ![Demo](https://raw.githubusercontent.com/zzdjk6/ZZToggleButton/master/Stuff/Demo.gif)
 
+## Installation
+
+ZZToggleButton is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "ZZToggleButton"
+```
+
 ## How To Use
 
 ### ObjC
@@ -198,3 +207,11 @@ public class ZZToggleButton : UIButton {
 ```
 
 Give "ZZToggleButton-Example" project a closer look.
+
+## Author
+
+Shenghan Chen, zzdjk6@gmail.com
+
+## License
+
+ZZToggleButton is available under the MIT license. See the LICENSE file for more info.
