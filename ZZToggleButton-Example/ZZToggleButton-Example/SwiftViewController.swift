@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ZZToggleButton
 
 class SwiftViewController: UIViewController {
     

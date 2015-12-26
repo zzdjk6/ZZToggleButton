@@ -1,0 +1,14 @@
+PODS:
+  - ZZToggleButton (0.0.1)
+
+DEPENDENCIES:
+  - ZZToggleButton (from `ZZToggleButton`)
+
+EXTERNAL SOURCES:
+  ZZToggleButton:
+    :path: ZZToggleButton
+
+SPEC CHECKSUMS:
+  ZZToggleButton: dbe4fd5edaf304bc5dbf44659cb7aeaf6a6c95d7
+
+COCOAPODS: 0.39.0

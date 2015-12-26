@@ -8,14 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-//! Project version number for ZZToggleButton.
-FOUNDATION_EXPORT double ZZToggleButtonVersionNumber;
-
-//! Project version string for ZZToggleButton.
-FOUNDATION_EXPORT const unsigned char ZZToggleButtonVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <ZZToggleButton/PublicHeader.h>
-
 IB_DESIGNABLE
 
 /**
