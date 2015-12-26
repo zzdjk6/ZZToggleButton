@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		000C8D087C2EBDD0DF7068BF07CEEA32 /* ZZToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 440EA33F074AE589ECAAAC0E7622F1E8 /* ZZToggleButton.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		0CD24115FAACA6551B78709A3F1C737D /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2787E840C0BC675AA0D2649B5702E425 /* ZZToggleButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F18F5E09A568724B68B07749A6199CE1 /* ZZToggleButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29ACF075D083F90B196344BEA4C8582F /* ZZToggleButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CFD94400548C057DA9F4621E8AB1455 /* ZZToggleButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		412A89825B27A5D3B38D30C16DBF920A /* ZZToggleButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716717CCBE234A149A21CA8CA447B2B /* ZZToggleButton-dummy.m */; };
+		23CC54BC7CCFD1A91D541944C8E01C7B /* ZZToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AAA2BB8D8975B66DDE9F98426E690D /* ZZToggleButton.m */; };
+		2787E840C0BC675AA0D2649B5702E425 /* ZZToggleButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF0E262C4987CA7AE448E2F412FB397 /* ZZToggleButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29ACF075D083F90B196344BEA4C8582F /* ZZToggleButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F99508EAE0AE24530E0842F508A75294 /* ZZToggleButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DEF234A38FD14C4A58A0E2C14969B1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		AC1ABB1F99291F8532E74BE7EF3BFD41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		B1920387CFB14830244BDD14FA12616A /* ZZToggleButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A25DEC9DCB3A5A1BD4BD6B7488A2F676 /* ZZToggleButton-dummy.m */; };
 		B50F4E1B552648CBA9D7DB75D5627ACC /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
+		F964A19D26E989DE0134E2D688BB10FF /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = 19534017BF6C93A0B3AEC6E2192AEC68 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,28 +29,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0716717CCBE234A149A21CA8CA447B2B /* ZZToggleButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZZToggleButton-dummy.m"; sourceTree = "<group>"; };
+		0AF0E262C4987CA7AE448E2F412FB397 /* ZZToggleButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZZToggleButton.h; sourceTree = "<group>"; };
+		19534017BF6C93A0B3AEC6E2192AEC68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
-		2C60794750412556E5D13483980D8B58 /* ZZToggleButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZToggleButton-prefix.pch"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3FB41E304B2C13F2FB2350F2B20F831B /* ZZToggleButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZZToggleButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		440EA33F074AE589ECAAAC0E7622F1E8 /* ZZToggleButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZZToggleButton.m; sourceTree = "<group>"; };
 		61798D14791089FA297055F87CFA2FD8 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		729FC60A4ED2D26BC1E74E79B7250F2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
-		7DB4E1B1FBF8EAA6D14EE382FFB4B649 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82AFCAFA107CB43CB5DD989D9FE9F1BC /* ZZToggleButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZToggleButton.xcconfig; sourceTree = "<group>"; };
 		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
 		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		8CFD94400548C057DA9F4621E8AB1455 /* ZZToggleButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZToggleButton-umbrella.h"; sourceTree = "<group>"; };
-		9406DD2FC073EC9DF4EF720FB4FC74A2 /* ZZToggleButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZZToggleButton.modulemap; sourceTree = "<group>"; };
 		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		A25DEC9DCB3A5A1BD4BD6B7488A2F676 /* ZZToggleButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZZToggleButton-dummy.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C7B0CAC56CB1F3B6A2251C6109835566 /* ZZToggleButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZToggleButton.xcconfig; sourceTree = "<group>"; };
 		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
 		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D85F1EC62AA4D7FDE8E606780915A271 /* ZZToggleButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZZToggleButton.modulemap; sourceTree = "<group>"; };
 		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		E05FAF8F7B22F4046C92AC69EBFE20C4 /* ZZToggleButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZToggleButton-prefix.pch"; sourceTree = "<group>"; };
 		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
 		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F18F5E09A568724B68B07749A6199CE1 /* ZZToggleButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZZToggleButton.h; sourceTree = "<group>"; };
+		F6AAA2BB8D8975B66DDE9F98426E690D /* ZZToggleButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZZToggleButton.m; sourceTree = "<group>"; };
+		F99508EAE0AE24530E0842F508A75294 /* ZZToggleButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZToggleButton-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,14 +74,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17225F41D0B64452B621448D48DA7174 /* ZZToggleButton */ = {
+		1E48EF131214A9A87EDD66927D534942 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C18D54339B595001DDA02FCCCA7591C2 /* Support Files */,
-				C2AA51AEEF205FF9779B800BE0BC5788 /* ZZToggleButton */,
+				729FC60A4ED2D26BC1E74E79B7250F2D /* Info.plist */,
+				D85F1EC62AA4D7FDE8E606780915A271 /* ZZToggleButton.modulemap */,
+				82AFCAFA107CB43CB5DD989D9FE9F1BC /* ZZToggleButton.xcconfig */,
+				A25DEC9DCB3A5A1BD4BD6B7488A2F676 /* ZZToggleButton-dummy.m */,
+				E05FAF8F7B22F4046C92AC69EBFE20C4 /* ZZToggleButton-prefix.pch */,
+				F99508EAE0AE24530E0842F508A75294 /* ZZToggleButton-umbrella.h */,
 			);
-			name = ZZToggleButton;
-			path = ..;
+			name = "Support Files";
+			path = "Pods/Target Support Files/ZZToggleButton";
+			sourceTree = "<group>";
+		};
+		31A1C5A435C5148C5592B609337DA749 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC76C6779BEF78E181CBAE7B8D284B1E /* ZZToggleButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		71211A7A7D829C2FDA00706DB9ED5A12 /* ZZToggleButton */ = {
+			isa = PBXGroup;
+			children = (
+				0AF0E262C4987CA7AE448E2F412FB397 /* ZZToggleButton.h */,
+				F6AAA2BB8D8975B66DDE9F98426E690D /* ZZToggleButton.m */,
+			);
+			path = ZZToggleButton;
 			sourceTree = "<group>";
 		};
 		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
@@ -104,7 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				E0D6DC30A278DA59D0A145096BDA2F2C /* Development Pods */,
+				31A1C5A435C5148C5592B609337DA749 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				85E181BA561EC4C9D2A0C4C9FC15B65B /* Products */,
 				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
@@ -144,35 +167,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C18D54339B595001DDA02FCCCA7591C2 /* Support Files */ = {
+		EC76C6779BEF78E181CBAE7B8D284B1E /* ZZToggleButton */ = {
 			isa = PBXGroup;
 			children = (
-				7DB4E1B1FBF8EAA6D14EE382FFB4B649 /* Info.plist */,
-				9406DD2FC073EC9DF4EF720FB4FC74A2 /* ZZToggleButton.modulemap */,
-				C7B0CAC56CB1F3B6A2251C6109835566 /* ZZToggleButton.xcconfig */,
-				0716717CCBE234A149A21CA8CA447B2B /* ZZToggleButton-dummy.m */,
-				2C60794750412556E5D13483980D8B58 /* ZZToggleButton-prefix.pch */,
-				8CFD94400548C057DA9F4621E8AB1455 /* ZZToggleButton-umbrella.h */,
+				19534017BF6C93A0B3AEC6E2192AEC68 /* LICENSE */,
+				1E48EF131214A9A87EDD66927D534942 /* Support Files */,
+				71211A7A7D829C2FDA00706DB9ED5A12 /* ZZToggleButton */,
 			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/ZZToggleButton";
-			sourceTree = "<group>";
-		};
-		C2AA51AEEF205FF9779B800BE0BC5788 /* ZZToggleButton */ = {
-			isa = PBXGroup;
-			children = (
-				F18F5E09A568724B68B07749A6199CE1 /* ZZToggleButton.h */,
-				440EA33F074AE589ECAAAC0E7622F1E8 /* ZZToggleButton.m */,
-			);
-			path = ZZToggleButton;
-			sourceTree = "<group>";
-		};
-		E0D6DC30A278DA59D0A145096BDA2F2C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				17225F41D0B64452B621448D48DA7174 /* ZZToggleButton */,
-			);
-			name = "Development Pods";
+			name = ZZToggleButton;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06044C15CDAF53676C356089F7EF38E2 /* Build configuration list for PBXNativeTarget "ZZToggleButton" */;
 			buildPhases = (
-				4CAE18B70F66FEB8456A2BB6B1F1B93A /* Sources */,
+				4DFA2816589ABC8355D1DF8DB20741D3 /* Sources */,
 				3DE52AB01266035EF62F10C29EF1EC81 /* Frameworks */,
 				9BCB7CC49F6B85FAE9EFC603D9E171C1 /* Headers */,
 			);
@@ -269,12 +272,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CAE18B70F66FEB8456A2BB6B1F1B93A /* Sources */ = {
+		4DFA2816589ABC8355D1DF8DB20741D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				412A89825B27A5D3B38D30C16DBF920A /* ZZToggleButton-dummy.m in Sources */,
-				000C8D087C2EBDD0DF7068BF07CEEA32 /* ZZToggleButton.m in Sources */,
+				F964A19D26E989DE0134E2D688BB10FF /* LICENSE in Sources */,
+				B1920387CFB14830244BDD14FA12616A /* ZZToggleButton-dummy.m in Sources */,
+				23CC54BC7CCFD1A91D541944C8E01C7B /* ZZToggleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +395,7 @@
 		};
 		EA19F3447BD343E3B405DD7AA40A5C33 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7B0CAC56CB1F3B6A2251C6109835566 /* ZZToggleButton.xcconfig */;
+			baseConfigurationReference = 82AFCAFA107CB43CB5DD989D9FE9F1BC /* ZZToggleButton.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -418,7 +422,7 @@
 		};
 		F89BCD3D906200EF9945DCEECBA85F2B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7B0CAC56CB1F3B6A2251C6109835566 /* ZZToggleButton.xcconfig */;
+			baseConfigurationReference = 82AFCAFA107CB43CB5DD989D9FE9F1BC /* ZZToggleButton.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;

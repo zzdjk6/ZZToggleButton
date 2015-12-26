@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: .
 
 SPEC CHECKSUMS:
-  ZZToggleButton: 1761bd42ce45564a48b4bfc95bf543faeedd08e8
+  ZZToggleButton: 283d721ec7d154543331ba09903d7bbdffa2df40
 
 COCOAPODS: 0.39.0
